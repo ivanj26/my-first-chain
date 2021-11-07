@@ -1,0 +1,23 @@
+{
+  "name": "first-chain",
+  "version": "1.0.0",
+  "description": "my first blockchain",
+  "main": "./index.ts",
+  "scripts": {
+    "start": "ts-node-dev ./index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ivan Jonathan",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "tslint": "^6.1.3",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@types/crypto-js": "^4.0.2",
+    "@types/node": "^16.11.6",
+    "crypto-js": "^4.1.1"
+  }
+}
